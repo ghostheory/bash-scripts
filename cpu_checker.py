@@ -16,6 +16,10 @@ def send_message(signal):
     if signal == 'load_high_and_climbing':
         return "send alternative msg to slack"
 
+def apprise(f)
+    msg = "blob"
+    hash = "hash"
+
 
 #LOGIC
 if fifteen_minute_load > core_count:
