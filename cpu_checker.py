@@ -2,6 +2,7 @@
 
 import multiprocessing
 import os
+from slackclient import SlackClient
 
 # VARS
 core_count = float(multiprocessing.cpu_count())
@@ -16,10 +17,6 @@ def send_message(signal):
     if signal == 'load_high_and_climbing':
         return "send alternative msg to slack"
 
-def apprise(f)
-    msg = "blob"
-    hash = "hash"
-
 
 #LOGIC
 if fifteen_minute_load > core_count:
@@ -30,3 +27,14 @@ if fifteen_minute_load > core_count:
 
 print(fifteen_minute_load)
 print(core_count)
+
+#Testing ...
+
+slack_token = os.environ["SLACK_API_TOKEN"]
+sc = SlackClient(slack_token)
+
+sc.api_call(
+  "chat.postMessage",
+  channel="#bus-routing-app",
+  text="Hello from Python! :tada:"
+)
