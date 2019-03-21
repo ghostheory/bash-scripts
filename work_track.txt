@@ -1,3 +1,7 @@
 
 Sat 16 Feb 2019 06:43:30 AM UTC
 I am having issues getting the slackclient to work in my python script. So far the documentation has been at odds with itself, plus I am very unfamiliar with working with APIs/Tokens. I will have to take the API course on Udacity :: https://www.udacity.com/course/designing-restful-apis--ud388
+
+
+Thu Mar 21 05:09:35 UTC 2019
+added/updated a general portcheck script that I had written a little while ago. I still need to get back to the slackclient work, but lately have been hamstrung with DB issues at work. I will get at it when I find the time (maybe a month or two).
