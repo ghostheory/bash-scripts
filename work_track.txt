@@ -5,3 +5,7 @@ I am having issues getting the slackclient to work in my python script. So far t
 
 Thu Mar 21 05:09:35 UTC 2019
 added/updated a general portcheck script that I had written a little while ago. I still need to get back to the slackclient work, but lately have been hamstrung with DB issues at work. I will get at it when I find the time (maybe a month or two).
+
+
+Wed May  8 08:46:29 UTC 2019
+Wrote an SSH session detector that filters and reports opened sessions from unknown IP addresses. Future work I would like to add bot functionality in Slack to hit the ipstack.com api and pull information on the IPs. It would also be interesting to do connection detection in real time.
